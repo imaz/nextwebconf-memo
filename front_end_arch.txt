@@ -1,0 +1,76 @@
+Front End Archtecture
+
+@hokaccha
+
+
+@koba04
+backbone marionet angular 昔やってた
+react.js ナウ
+アプリケーションを作るときに学習コストが低い
+
+@armorik83
+backbone knockout が流行ってた頃
+Angular.js 2年くらいやってる
+MVCが新鮮
+
+
+@laco0416
+Polymer Google製のフレームワーク
+
+
+
+MVW Model View Whatever
+(なんだその気持ち悪い表現は！)
+
+
+特徴
+  Data binding
+  コンポーネント化
+
+  Polymer 単方向でも双方向でもバインディングできる、ユーザが選べる
+
+コンポーネント化
+  Polymer
+    セマンティック的にコンポーネント化して意味をもたせる…？
+    web components を利用しやすくするライブラリとのこと
+    syntax sugar としてのやくわり
+
+  Angluar2
+    web components が入ることになる?
+    というよりも shaddow DOM というのが入ることになる
+    DOMの隠蔽
+
+  Web Components
+    ShadowDOM CustomElement HTMLImport とか4種類くらいある
+
+  Web Components を wrap したライブラリが出るから仕様を理解して使っていくみたいなことはないんじゃないかな
+  Shadow DOM は全ブラウザでやってこうぜって合意がとれたから実装されていくはず
+
+なんでBEMの話でてきたかよくわかってない
+コンポーネント名とかそういうこと？ AngluarではBEMをサポートしてないとか言ってたなー
+
+ルーティング
+  React
+    React router でルーティングしてる
+    React 中はつらそうだけど使っててこまることはあんまない
+    エレメント指定して定義するというのがなんかへんな感じが
+      言い方変えると宣言的に…なるほど?
+      fluxではツライかも
+  Angular
+    Routeが強い ng-route
+    ng-route と ComponentRouter はAngular にデフォで入ってる
+    ui-router めっちゃいいらしい
+  Polymer
+    Angularはフレームワークだからrouteをサポートするのは良いけど
+    polymerとreactはviewライブラリだからrouteまでやるのはなんか、ゆるくなってる気がする
+    react router もプラグイン的なものらしい
+
+
+アプリケーション設計の話
+
+Flux
+Redux...
+うん
+このへんよくわからないな
+
+
